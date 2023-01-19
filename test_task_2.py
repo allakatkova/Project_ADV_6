@@ -13,7 +13,3 @@ class TestYandexFolder(TestCase):
     def test_folder_create(self):
         self.assertTrue(cfyd.create_folder(FOLDER_NAME) == 201,
                         f'Папка {FOLDER_NAME} не найдена на Я.Диске')
-
-
-# if __name__ == '__main__':
-#     TestYandexFolder()

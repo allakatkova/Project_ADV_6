@@ -14,8 +14,3 @@ def check_folder(folder_name):
 def create_folder(folder_name):
     result = requests.put(f'{URL}?path={folder_name}', headers=HEADERS)
     return result.status_code
-
-
-# if __name__ == '__main__':
-#     create_folder('test')
-#     check_folder('test')
