@@ -1,6 +1,6 @@
 import requests
 
-TOKEN = 'y0_AgAAAAACEB5lAADLWwAAAADVOwmof3Hnr59kQIKqqaFV0AmPgB22Kro'
+TOKEN = ''
 HEADERS = {'Content-Type': 'application/json',
            'Accept': 'application/json', 'Authorization': f'OAuth {TOKEN}'}
 URL = 'https://cloud-api.yandex.net/v1/disk/resources'
